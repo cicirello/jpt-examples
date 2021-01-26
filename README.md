@@ -52,3 +52,25 @@ These four programs are as follows:
 * org.cicirello.replication.arxiv2019may.CompareKendallTauSequenceDistAlgsStrings
 * org.cicirello.replication.arxiv2019may.CompareKendallTauSequenceDistAlgsStringArray
 
+__org.cicirello.replication.bict2019.BICT2019__: This program generates the data for the
+principal component analysis, as well as the fitness distance correlation data,
+from the paper:
+V. A. Cicirello, "Classification of Permutation Distance Metrics for Fitness Landscape Analysis," 
+in Proceedings of the 11th International Conference on Bio-inspired Information and 
+Communications Technologies.  March 2019. https://www.cicirello.org/publications/cicirello2019bict.html.
+
+__org.cicirello.replication.flairs2013.Flairs2013__: This program generates the correlation
+data that appears in Tables 1 and 2, as well as the data necessary to generate the
+graphs in Figures 1, 2, 3, 4, and 5 of the paper:
+V. A. Cicirello and R. Cernera, "Profiling the distance characteristics 
+of mutation operators for permutation-based genetic algorithms," 
+in Proceedings of the 26th FLAIRS Conference. AAAI Press, 
+May 2013, pp. 46–51. https://www.cicirello.org/publications/cicirello2013flairs.html.
+
+__org.cicirello.replication.ieeetevc2016.FDC__: This program generates the fitness 
+distance correlations for the "Permutation in a Haystack" fitness landscapes 
+found in Table II of the paper:
+V.A. Cicirello, "The Permutation in a Haystack Problem and the Calculus of Search Landscapes," 
+IEEE Transactions on Evolutionary Computation, 20(3):434-446, 
+June 2016. https://www.cicirello.org/publications/cicirello2016evc.html.
+
