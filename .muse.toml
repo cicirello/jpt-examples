@@ -1,1 +1,8 @@
 jdk11 = true
+
+# Ignore warnings not relevant to this specific project:
+#
+# 1) FindSecBugs identifies our use of ThreadLocalRandom as predictable.
+# However, the usage in this repository is not security related. 
+
+ignore = ["PREDICTABLE_RANDOM"]
