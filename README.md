@@ -4,7 +4,8 @@ Copyright (C) 2018-2021 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/jpt-examples.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.cicirello/jpt-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/jpt-examples?logo=GitHub)](https://github.com/cicirello/jpt-examples/releases) |
 | :--- | :--- |
-| __Source and Build Info__ | [![build](https://github.com/cicirello/jpt-examples/workflows/build/badge.svg)](https://github.com/cicirello/jpt-examples/actions?query=workflow%3Abuild) [![GitHub](https://img.shields.io/github/license/cicirello/jpt-examples)](https://github.com/cicirello/jpt-examples/blob/main/LICENSE) |
+| __Build Status__ | [![build](https://github.com/cicirello/jpt-examples/workflows/build/badge.svg)](https://github.com/cicirello/jpt-examples/actions?query=workflow%3Abuild) |
+| __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/jpt-examples)](https://github.com/cicirello/jpt-examples/blob/main/LICENSE) |
 
 This repository contains several example programs of the 
 usage of the [JavaPermutationTools (JPT)](https://jpt.cicirello.org) 
