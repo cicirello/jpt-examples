@@ -7,4 +7,4 @@ jdk11 = true
 # 1) FindSecBugs identifies our use of ThreadLocalRandom as predictable.
 # However, the usage in this repository is not security related. 
 
-ignore = ["PREDICTABLE_RANDOM"]
+ignoreRules = ["PREDICTABLE_RANDOM"]
