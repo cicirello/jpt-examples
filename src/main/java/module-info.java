@@ -1,6 +1,6 @@
 /*
  * Example programs for JavaPermutationTools library.
- * Copyright (C) 2018-2021  Vincent A. Cicirello
+ * Copyright (C) 2018-2022 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,5 +29,7 @@ module org.cicirello.examples.jpt {
 	exports org.cicirello.replication.flairs2013;
 	exports org.cicirello.replication.ieeetevc2016;
 	requires org.cicirello.jpt;
+	requires org.cicirello.rho_mu;
+	requires org.cicirello.core;
 	requires java.management;
 }
