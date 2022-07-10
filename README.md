@@ -7,6 +7,7 @@ Copyright (C) 2018-2022 Vincent A. Cicirello. https://www.cicirello.org/
 | __Build Status__ | [![build](https://github.com/cicirello/jpt-examples/workflows/build/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/build.yml) [![CodeQL](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml) |
 | __Security__ | [![Snyk security score](https://snyk-widget.herokuapp.com/badge/mvn/org.cicirello/jpt-examples/badge.svg)](https://snyk.io/vuln/maven%3Aorg.cicirello%3Ajpt-examples) [![Snyk Known Vulnerabilities](https://snyk.io/test/github/cicirello/jpt-examples/badge.svg)](https://snyk.io/test/github/cicirello/jpt-examples) |
 | __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/jpt-examples)](https://github.com/cicirello/jpt-examples/blob/main/LICENSE) |
+| __Support__ | [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/cicirello) [![Liberapay](https://img.shields.io/badge/Liberapay-F6C915?logo=liberapay&logoColor=black)](https://liberapay.com/cicirello) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/cicirello) |
 
 This repository contains several example programs of the 
 usage of the [JavaPermutationTools (JPT)](https://jpt.cicirello.org) 
