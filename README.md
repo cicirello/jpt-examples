@@ -2,7 +2,7 @@
 
 Copyright (C) 2018-2023 Vincent A. Cicirello. https://www.cicirello.org/
 
-| __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/jpt-examples.svg?label=Maven%20Central&logo=apachemaven)](https://search.maven.org/artifact/org.cicirello/jpt-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/jpt-examples?logo=GitHub)](https://github.com/cicirello/jpt-examples/releases) |
+| __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/jpt-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/search?namespace=org.cicirello&q=jpt-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/jpt-examples?logo=GitHub)](https://github.com/cicirello/jpt-examples/releases) |
 | :--- | :--- |
 | __Build Status__ | [![build](https://github.com/cicirello/jpt-examples/workflows/build/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/build.yml) [![CodeQL](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml) |
 | __Security__ | [![Snyk security score](https://snyk-widget.herokuapp.com/badge/mvn/org.cicirello/jpt-examples/badge.svg)](https://snyk.io/vuln/maven%3Aorg.cicirello%3Ajpt-examples) [![Snyk Known Vulnerabilities](https://snyk.io/test/github/cicirello/jpt-examples/badge.svg)](https://snyk.io/test/github/cicirello/jpt-examples) |
