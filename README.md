@@ -19,7 +19,7 @@ distance metrics as well as distance metrics on sequences (i.e.,
 Strings, arrays, and other ordered data 
 types). [JPT's source code](https://github.com/cicirello/JavaPermutationTools) is 
 maintained on GitHub, and the prebuilt jars of the library can be imported 
-from [Maven Central](https://search.maven.org/artifact/org.cicirello/jpt) 
+from [Maven Central](https://central.sonatype.com/artifact/org.cicirello/jpt/) 
 using maven or other build tools. The purpose of this repository is to 
 demonstrate usage of the major functionality of the JPT library.
 
