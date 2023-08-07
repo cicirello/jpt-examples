@@ -89,7 +89,7 @@ public class TableOfDistances {
     // output a list of the distance measures to identify the column headings from above
     System.out.println("Distance measures used above");
     for (int i = 0; i < d.length; i++) {
-      System.out.printf("d%d: %s\n", i, d[i].getClass().getSimpleName());
+      System.out.printf("d%d: %s%n", i, d[i].getClass().getSimpleName());
     }
   }
 }
