@@ -128,10 +128,23 @@ public class BICT2019 {
         this.vector = vector;
       }
 
+      @Override
       public int compareTo(EigenValueVectorPair other) {
-        if (Math.abs(value) > Math.abs(other.value)) return -1;
-        if (Math.abs(value) < Math.abs(other.value)) return 1;
-        return 0;
+        return Double.compare(Math.abs(other.value), Math.abs(value));
+      }
+
+      @Override
+      public boolean equals(Object other) {
+        if (other == null || !(other instanceof EigenValueVectorPair)) {
+          return false;
+        }
+        EigenValueVectorPair casted = (EigenValueVectorPair) other;
+        return compareTo(casted) == 0 && Arrays.equals(vector, casted.vector);
+      }
+
+      @Override
+      public int hashCode() {
+        return Double.hashCode(value);
       }
     }
 
