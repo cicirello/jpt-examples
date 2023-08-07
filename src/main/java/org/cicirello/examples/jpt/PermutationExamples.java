@@ -66,6 +66,9 @@ public class PermutationExamples {
     // The Permutation class overrides Object.toString so you can easily generate text output that
     // includes descriptions of permutations.  For example:
     System.out.println("Permutation p1 is: " + p1);
+    System.out.println("Permutation p2 is: " + p2);
+    System.out.println("Permutation p3 is: " + p3);
+    System.out.println("Permutation p4 is: " + p4);
 
     // The Permutation class overrides Object.hashCode so you can use Permutation objects as the
     // key to a HashMap, HashSet, etc.
