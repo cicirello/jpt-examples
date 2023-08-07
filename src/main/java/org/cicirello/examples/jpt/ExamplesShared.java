@@ -1,6 +1,6 @@
 /*
  * Example programs for JavaPermutationTools library.
- * Copyright (C) 2018-2021  Vincent A. Cicirello
+ * Copyright (C) 2018-2023 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@ public class ExamplesShared {
   public static void printCopyrightAndLicense() {
     System.out.println();
     System.out.println("Example program for JavaPermutationTools library.");
-    System.out.println("Copyright (C) 2018-2021  Vincent A. Cicirello");
+    System.out.println("Copyright (C) 2018-2023 Vincent A. Cicirello");
     System.out.println("This program comes with ABSOLUTELY NO WARRANTY.  This is free");
     System.out.println("software, and you are welcome to redistribute it under certain");
     System.out.println("conditions.  See the GNU General Public License for more");
