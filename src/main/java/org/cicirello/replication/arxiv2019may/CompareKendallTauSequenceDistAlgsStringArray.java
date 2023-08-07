@@ -82,7 +82,7 @@ public class CompareKendallTauSequenceDistAlgsStringArray {
     // END WARM UP PHASE.
 
     System.out.println("High Cost Comparisons");
-    System.out.printf("%8s\t%8s\t%8s\t%8s\t%8s\n", "L", "Alphabet", "StrL", "TimeHash", "TimeSort");
+    System.out.printf("%8s\t%8s\t%8s\t%8s\t%8s%n", "L", "Alphabet", "StrL", "TimeHash", "TimeSort");
     int x = 0;
     for (int L = MIN_L; L <= MAX_L; L *= 2) {
       for (int R : alphabetSize) {
@@ -116,7 +116,7 @@ public class CompareKendallTauSequenceDistAlgsStringArray {
 
     System.out.println("\n\nLow Cost Comparisons");
 
-    System.out.printf("%8s\t%8s\t%8s\t%8s\t%8s\n", "L", "Alphabet", "StrL", "TimeHash", "TimeSort");
+    System.out.printf("%8s\t%8s\t%8s\t%8s\t%8s%n", "L", "Alphabet", "StrL", "TimeHash", "TimeSort");
     x = 0;
     for (int L = MIN_L; L <= MAX_L; L *= 2) {
       for (int R : alphabetSize) {

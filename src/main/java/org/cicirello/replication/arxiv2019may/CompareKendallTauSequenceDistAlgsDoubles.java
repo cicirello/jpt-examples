@@ -79,7 +79,7 @@ public class CompareKendallTauSequenceDistAlgsDoubles {
       System.gc();
     }
     // END WARM UP PHASE.
-    System.out.printf("%8s\t%8s\t%8s\t%8s\n", "L", "Alphabet", "TimeHash", "TimeSort");
+    System.out.printf("%8s\t%8s\t%8s\t%8s%n", "L", "Alphabet", "TimeHash", "TimeSort");
     int x = 0;
     for (int L = MIN_L; L <= MAX_L; L *= 2) {
       for (int j = 0; j < alphabetSize.length; j++) {

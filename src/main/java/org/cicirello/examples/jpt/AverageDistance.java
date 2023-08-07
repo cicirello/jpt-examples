@@ -78,8 +78,8 @@ public class AverageDistance {
     };
 
     System.out.println("Example computes average distance between pairs of random permutations.");
-    System.out.printf("Permutation length: %d\n", LENGTH);
-    System.out.printf("Number of samples used in averages: %d\n\n", NUM_SAMPLES);
+    System.out.printf("Permutation length: %d%n", LENGTH);
+    System.out.printf("Number of samples used in averages: %d%n%n", NUM_SAMPLES);
 
     // for each distance metric
     for (int i = 0; i < d.length; i++) {
@@ -94,7 +94,7 @@ public class AverageDistance {
       // compute average
       double average = 1.0 * sum / NUM_SAMPLES;
       // output result
-      System.out.printf("%s: %.2f\n", d[i].getClass().getSimpleName(), average);
+      System.out.printf("%s: %.2f%n", d[i].getClass().getSimpleName(), average);
     }
   }
 }

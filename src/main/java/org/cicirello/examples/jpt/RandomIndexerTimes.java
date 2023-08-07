@@ -82,7 +82,7 @@ public class RandomIndexerTimes {
     ArrayList<double[]>[] msPow2Bound = new ArrayList[2];
     msPow2Bound[0] = new ArrayList<double[]>();
     msPow2Bound[1] = new ArrayList<double[]>();
-    System.out.printf("%6s\t%10s\t%10s\t%10s\t%10s\n", "Bound", "TLR", "RI", "t", "dof");
+    System.out.printf("%6s\t%10s\t%10s\t%10s\t%10s%n", "Bound", "TLR", "RI", "t", "dof");
     for (int bound = 1; bound <= 512; bound++) {
       double[][] ms = new double[2][TRIALS];
       for (int j = 0; j < TRIALS; j++) {
@@ -115,7 +115,7 @@ public class RandomIndexerTimes {
       int dof = tTest[1].intValue();
       // times are converted to seconds during output
       System.out.printf(
-          "%6d\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+          "%6d\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
           bound, Statistics.mean(ms[0]) / 1000, Statistics.mean(ms[1]) / 1000, t, dof);
     }
     double[] a0 = toArray(msLowBound[0]);
@@ -125,7 +125,7 @@ public class RandomIndexerTimes {
     int dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "LOW", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
     a0 = toArray(msHighBound[0]);
     a1 = toArray(msHighBound[1]);
@@ -134,7 +134,7 @@ public class RandomIndexerTimes {
     dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "HIGH", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
     a0 = toArray(msPow2Bound[0]);
     a1 = toArray(msPow2Bound[1]);
@@ -143,7 +143,7 @@ public class RandomIndexerTimes {
     dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "POW2", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
   }
 
@@ -193,7 +193,7 @@ public class RandomIndexerTimes {
     ArrayList<double[]>[] msPow2Bound = new ArrayList[2];
     msPow2Bound[0] = new ArrayList<double[]>();
     msPow2Bound[1] = new ArrayList<double[]>();
-    System.out.printf("%6s\t%10s\t%10s\t%10s\t%10s\n", "Bound", "TLR", "RI", "t", "dof");
+    System.out.printf("%6s\t%10s\t%10s\t%10s\t%10s%n", "Bound", "TLR", "RI", "t", "dof");
     System.out.flush();
     for (int bound = 1; bound <= 512; bound++) {
       double[][] ms = new double[2][TRIALS];
@@ -249,7 +249,7 @@ public class RandomIndexerTimes {
       int dof = tTest[1].intValue();
       // times are converted to seconds during output
       System.out.printf(
-          "%6d\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+          "%6d\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
           bound, Statistics.mean(ms[0]) / 1000, Statistics.mean(ms[1]) / 1000, t, dof);
       System.out.flush();
     }
@@ -260,7 +260,7 @@ public class RandomIndexerTimes {
     int dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "LOW", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
     a0 = toArray(msHighBound[0]);
     a1 = toArray(msHighBound[1]);
@@ -269,7 +269,7 @@ public class RandomIndexerTimes {
     dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "HIGH", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
     a0 = toArray(msPow2Bound[0]);
     a1 = toArray(msPow2Bound[1]);
@@ -278,7 +278,7 @@ public class RandomIndexerTimes {
     dof = tTest[1].intValue();
     // times are converted to seconds during output
     System.out.printf(
-        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d\n",
+        "%6s\t%10.7f\t%10.7f\t%10.4f\t%10d%n",
         "POW2", Statistics.mean(a0) / 1000, Statistics.mean(a1) / 1000, t, dof);
   }
 

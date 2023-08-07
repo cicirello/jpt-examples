@@ -106,7 +106,7 @@ public class Flairs2013 {
           "Figure " + f + " data for distance measure " + measurer.getClass().getSimpleName());
       f++;
       System.out.printf(
-          "%s\t%9s\t%9s\t%9s\t%9s\n", "Length", "Insertion", "Swap", "Scramble", "Reversal");
+          "%s\t%9s\t%9s\t%9s\t%9s%n", "Length", "Insertion", "Swap", "Scramble", "Reversal");
       for (int n = 16; n <= 1024; n *= 2) {
         System.out.printf("%6d", n);
         for (int j = 0; j < distanceSamples.length; j++) {

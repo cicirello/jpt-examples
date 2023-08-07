@@ -124,7 +124,7 @@ public class PermutationHashCodes {
       }
       double pct = 1.0 * collisionCount / fact;
       System.out.printf(
-          "Length: %d, #collisions: %d, Collision Percentage: %.5f\n", i, collisionCount, pct);
+          "Length: %d, #collisions: %d, Collision Percentage: %.5f%n", i, collisionCount, pct);
     }
   }
 }

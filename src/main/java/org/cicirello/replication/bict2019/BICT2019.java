@@ -154,7 +154,7 @@ public class BICT2019 {
     for (EigenValueVectorPair pair : pairs) {
       runningSum = runningSum + pair.value;
       System.out.printf(
-          "%3d\t%6.4f\t%6.4f\t%6.4f\n",
+          "%3d\t%6.4f\t%6.4f\t%6.4f%n",
           c, pair.value, pair.value / sumEigenvalues, runningSum / sumEigenvalues);
       c++;
     }
@@ -262,7 +262,7 @@ public class BICT2019 {
     for (EigenValueVectorPair pair : pairs) {
       runningSum = runningSum + pair.value;
       System.out.printf(
-          "%3d\t%6.4f\t%6.4f\t%6.4f\n",
+          "%3d\t%6.4f\t%6.4f\t%6.4f%n",
           c, pair.value, pair.value / sumEigenvalues, runningSum / sumEigenvalues);
       c++;
     }
@@ -360,7 +360,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       fdcTable[i][0] = correlation(tourLength, dataD[i]);
       System.out.print(measures.get(i).getClass().getSimpleName());
-      System.out.printf("\t&%6.4f\n", fdcTable[i][0]);
+      System.out.printf("\t&%6.4f%n", fdcTable[i][0]);
     }
     System.out.println();
 
@@ -385,7 +385,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       fdcTable[i][1] = correlation(tourLength, dataD[i]);
       System.out.print(measures.get(i).getClass().getSimpleName());
-      System.out.printf("\t&%6.4f\n", fdcTable[i][1]);
+      System.out.printf("\t&%6.4f%n", fdcTable[i][1]);
     }
     System.out.println();
 
@@ -414,7 +414,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       fdcTable[i][2] = correlation(fitness, dataD[i]);
       System.out.print(measures.get(i).getClass().getSimpleName());
-      System.out.printf("\t&%6.4f\n", fdcTable[i][2]);
+      System.out.printf("\t&%6.4f%n", fdcTable[i][2]);
     }
     System.out.println();
 
@@ -438,7 +438,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       fdcTable[i][3] = correlation(fitness, dataD[i]);
       System.out.print(measures.get(i).getClass().getSimpleName());
-      System.out.printf("\t&%6.4f\n", fdcTable[i][3]);
+      System.out.printf("\t&%6.4f%n", fdcTable[i][3]);
     }
     System.out.println();
 
@@ -462,7 +462,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       fdcTable[i][4] = correlation(fitness, dataD[i]);
       System.out.print(measures.get(i).getClass().getSimpleName());
-      System.out.printf("\t&%6.4f\n", fdcTable[i][4]);
+      System.out.printf("\t&%6.4f%n", fdcTable[i][4]);
     }
     System.out.println();
 
@@ -473,7 +473,7 @@ public class BICT2019 {
     for (int i = 0; i < numMeasures; i++) {
       System.out.print(measures.get(i).getClass().getSimpleName());
       System.out.printf(
-          "\t&%6.4f\t&%6.4f\t&%6.4f\t&%6.4f\t&%6.4f\n",
+          "\t&%6.4f\t&%6.4f\t&%6.4f\t&%6.4f\t&%6.4f%n",
           fdcTable[i][0], fdcTable[i][1], fdcTable[i][2], fdcTable[i][3], fdcTable[i][4]);
     }
     System.out.println();
