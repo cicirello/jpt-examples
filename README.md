@@ -1,6 +1,6 @@
 # Example Programs for the JavaPermutationTools (JPT) Library
 
-Copyright (C) 2018-2023 Vincent A. Cicirello. https://www.cicirello.org/
+Copyright (C) 2018-2024 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/jpt-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/artifact/org.cicirello/jpt-examples/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/jpt-examples?logo=GitHub)](https://github.com/cicirello/jpt-examples/releases) |
 | :--- | :--- |
