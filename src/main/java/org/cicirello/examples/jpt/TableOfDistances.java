@@ -38,6 +38,9 @@ import org.cicirello.permutations.distance.*;
  */
 public class TableOfDistances {
 
+  /* private constructor to prevent instantiation. */
+  private TableOfDistances() {}
+
   /**
    * Runs the example program.
    *

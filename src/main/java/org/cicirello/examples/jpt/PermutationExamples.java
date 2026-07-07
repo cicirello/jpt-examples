@@ -1,6 +1,6 @@
 /*
  * Example programs for JavaPermutationTools library.
- * Copyright (C) 2018-2023 Vincent A. Cicirello
+ * Copyright (C) 2018-2026 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,6 +30,9 @@ import org.cicirello.permutations.*;
  *     href=https://www.cicirello.org/ target=_top>https://www.cicirello.org/</a>
  */
 public class PermutationExamples {
+
+  /* private constructor to prevent instantiation. */
+  private PermutationExamples() {}
 
   /**
    * Runs the example program.
