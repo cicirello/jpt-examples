@@ -1,12 +1,12 @@
 # Example Programs for the JavaPermutationTools (JPT) Library
 
-Copyright (C) 2018-2024 Vincent A. Cicirello. https://www.cicirello.org/
+Copyright (C) 2018-2026 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/jpt-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/artifact/org.cicirello/jpt-examples/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/jpt-examples?logo=GitHub)](https://github.com/cicirello/jpt-examples/releases) |
 | :--- | :--- |
 | __Build Status__ | [![build](https://github.com/cicirello/jpt-examples/workflows/build/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/build.yml) [![CodeQL](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cicirello/jpt-examples/actions/workflows/codeql-analysis.yml) |
 | __Security__ | [![Snyk security score](https://snyk-widget.herokuapp.com/badge/mvn/org.cicirello/jpt-examples/badge.svg)](https://snyk.io/vuln/maven%3Aorg.cicirello%3Ajpt-examples) [![Snyk Known Vulnerabilities](https://snyk.io/test/github/cicirello/jpt-examples/badge.svg)](https://snyk.io/test/github/cicirello/jpt-examples) |
-| __Other Information__ | [![GitHub](https://img.shields.io/github/license/cicirello/jpt-examples)](https://github.com/cicirello/jpt-examples/blob/main/LICENSE) [![style](https://img.shields.io/badge/style-Google%20Java%20Style-informational)](https://google.github.io/styleguide/javaguide.html) |
+| __Other Information__ | [![GitHub](https://img.shields.io/github/license/cicirello/jpt-examples)](https://github.com/cicirello/jpt-examples/blob/main/LICENSE) [![style](https://img.shields.io/badge/style-Google%20Java%20Style-informational)](https://google.github.io/styleguide/javaguide.html) ![Minimum supported Java version](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcicirello%2Fjpt-examples%2Frefs%2Fheads%2Fmain%2Fpom.xml&query=%2F*%5Blocal-name()%3D'project'%5D%2F*%5Blocal-name()%3D'properties'%5D%2F*%5Blocal-name()%3D'maven.compiler.release'%5D&prefix=%3E%3D&label=Java) |
 | __Support__ | [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/cicirello) [![Liberapay](https://img.shields.io/badge/Liberapay-F6C915?logo=liberapay&logoColor=black)](https://liberapay.com/cicirello) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/cicirello) |
 
 This repository contains several example programs of the 
@@ -111,11 +111,19 @@ for you. But if you choose to use the prebuilt jars, you can find the jars
 of the [JPT library](https://github.com/cicirello/JavaPermutationTools) 
 likewise in Maven Central, GitHub Releases, and GitHub Packages.
 
+## Java Version Requirements
+
+| version | Java requirements |
+| --- | --- |
+| 7.x.y | Java 25+ |
+| 4.w.x to 6.y.z | Java 17+ |
+| 3.x.y | Java 11+ |
+| 1.w.x to 2.y.z | Java 8+ |
+
 ## Requirements to Build and Run the Example Programs from the Source
 
 To build and run the examples on your own machine, you will need the following:
-* __JDK 17__: Beginning with v4.0.0, the minimum supported Java version for the 
-  JavaPermutationTools library is Java 17, so you will need Java 17+ for the example programs. 
+* __JDK__: See the table above for [Java version requirements](#java-version-requirements). 
 * __Apache Maven__: In the root of the repository, there is a pom.xml for building the example programs. Using this pom.xml, Maven will take care of downloading the most recent version of the [JavaPermutationTools](https://jpt.cicirello.org/) library for which the examples have been tested, as well as JPT's dependencies. The examples should also work with more recent versions of the library.
 * __Make__ (optional): The repository also contains a Makefile to simplify running the build, and running the example programs. If you are familiar with using the Maven build tool, then you can just run these directly, although the Makefile may be useful to see the specific commands needed, such as the main classes to execute for the example programs.
 

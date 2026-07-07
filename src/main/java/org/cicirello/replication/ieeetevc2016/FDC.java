@@ -1,6 +1,6 @@
 /*
  * Example programs for JavaPermutationTools library.
- * Copyright (C) 2015-2016, 2018, 2021-2023 Vincent A. Cicirello
+ * Copyright (C) 2015-2016, 2018, 2021-2026 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,6 +37,9 @@ import org.cicirello.permutations.distance.*;
  *     href=https://www.cicirello.org/>https://www.cicirello.org/</a>
  */
 public class FDC {
+
+  /* private constructor to prevent instantiation. */
+  private FDC() {}
 
   /**
    * Runs the replication program.

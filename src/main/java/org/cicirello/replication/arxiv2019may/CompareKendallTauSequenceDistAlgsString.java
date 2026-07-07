@@ -1,6 +1,6 @@
 /*
  * Example programs for JavaPermutationTools library.
- * Copyright (C) 2018-2023 Vincent A. Cicirello
+ * Copyright (C) 2018-2026 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,6 +33,9 @@ import org.cicirello.sequences.distance.KendallTauSequenceDistance;
  *     href=https://www.cicirello.org/>https://www.cicirello.org/</a>
  */
 public class CompareKendallTauSequenceDistAlgsString {
+
+  /* private constructor to prevent instantiation. */
+  private CompareKendallTauSequenceDistAlgsString() {}
 
   private static int toTime(KendallTauSequenceDistance d, String[] a, String[] b) {
     // Summing and returning the sum of distances is
